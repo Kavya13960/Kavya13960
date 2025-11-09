@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Product Filter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Dynamic Product Filter</h1>
+
+    <!-- Dropdown Menu -->
+    <select id="categoryFilter">
+      <option value="all">All</option>
+      <option value="shoes">Shoes</option>
+      <option value="shirts">Shirts</option>
+      <option value="gadgets">Gadgets</option>
+    </select>
+
+    <!-- Product List -->
+    <div id="productList" class="product-list">
+      <div class="product" data-category="shoes">
+        <img src="https://via.placeholder.com/100" alt="Shoes">
+        <p>Running Shoes</p>
+      </div>
+      <div class="product" data-category="shirts">
+        <img src="https://via.placeholder.com/100" alt="Shirt">
+        <p>Cotton Shirt</p>
+      </div>
+      <div class="product" data-category="gadgets">
+        <img src="https://via.placeholder.com/100" alt="Gadget">
+        <p>Smart Watch</p>
+      </div>
+      <div class="product" data-category="shoes">
+        <img src="https://via.placeholder.com/100" alt="Shoes">
+        <p>Formal Shoes</p>
+      </div>
+      <div class="product" data-category="shirts">
+        <img src="https://via.placeholder.com/100" alt="Shirt">
+        <p>Graphic T-Shirt</p>
+      </div>
+      <div class="product" data-category="gadgets">
+        <img src="https://via.placeholder.com/100" alt="Gadget">
+        <p>Wireless Earbuds</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
